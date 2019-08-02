@@ -1,0 +1,52 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Ubuntu|Open+Sans&display=swap');
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: burlywood;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.cardDX{
+  width: 600px !important;
+}
+.cardSX{
+  width: 200px !important;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 50% !important;
+}
+.titleRed{
+  font-family: 'Ubuntu', sans-serif !important;
+  color:darkmagenta;
+}
+.littleTitleRed{
+  font-size: 12px;
+  font-family: 'Ubuntu', sans-serif !important;
+  color:rgb(53, 130, 253);
+}
+.divLeft{
+  float: left;
+}
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.note {
+  font-size: 13px;
+  font-family: 'Ubuntu', sans-serif !important;
+  color:rgb(97, 97, 97); 
+  font-style: italic;
+}
